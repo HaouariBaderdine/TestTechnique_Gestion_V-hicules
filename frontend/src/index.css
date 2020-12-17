@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.react-table-fixed-height {
+  height: 500px;
+}
+.text-center p,
+.text-center div,
+.text-center span,
+.text-center i,
+.text-center a,
+.text-center h1,
+.text-center h2,
+.text-center h3,
+.text-center h4,
+.text-center h5,
+.text-center h6 {
+  text-align: center;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+body{
+	font-family: sans-serif;
+}
+.rt-resizable-header-content{
+    text-align: center;
+    width: 200px !important;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: medium;
+}
+.rt-td{text-align: center;
+    width: 200px !important;
+text-align: justify !important;
+padding-left: 5%;}
+.-odd{
+    display: flex;
+}
+.rt-tr{    display: flex;
+    justify-content: space-between;
+    width: 100%;}
+    .-loading{
+        display: none;
+    }
